@@ -1,0 +1,60 @@
+:root {
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst: rgba(33, 51, 82, 1);
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero: rgba(255, 255, 255, 1);
+    --puispresidentacid12633333740234375x5413333129882812defaultdove-gray: rgba(106, 106, 106, 1);
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultblack: rgba(0, 0, 0, 1);
+    --puispresidentacid12633333740234375x5413333129882812defaultblack-10: rgba(0, 0, 0, 0.1);
+    --puispresidentacid12633333740234375x5413333129882812defaultdeep-cerulean: rgba(0, 122, 180, 1);
+    --puispresidentacid12633333740234375x5413333129882812defaultsilver-44: rgba(204, 204, 204, 0.44);
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultzumthor: rgba(232, 240, 254, 1);
+    --puispresidentacid12633333740234375x5413333129882812defaultdusty-gray: rgba(153, 153, 153, 1);
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst-79: rgba(33, 51, 82, 0.79);
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-family: "Roboto Slab",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-weight: 500;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-size: 17.16484260559082px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-line-height: 20.799999237060547px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-style: normal;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-family: "Roboto Slab",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-weight: 500;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-size: 10.532812118530273px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-line-height: 12.800000190734863px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-style: normal;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-family: "Roboto Slab",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-weight: 400;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-size: 14.399999618530273px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-line-height: 21.600000381469727px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-style: normal;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-family: "Font Awesome 5 Free",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-weight: 400;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-size: 12.800000190734863px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-line-height: 12.800000190734863px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-style: normal;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-family: "Roboto Slab",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-weight: 400;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-size: 12.800000190734863px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-line-height: 19.200000762939453px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-style: normal;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-family: "Roboto Slab",
+      Helvetica;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-weight: 500;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-size: 16px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-letter-spacing: 0px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-line-height: 19.200000762939453px;
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-style: normal;
+    --collection-1-information-system: initial;
+    --collection-1-paid: initial;
+    --collection-1-free: initial;
+    --collection-1-management: initial;
+    --collection-1-information-technology: initial;
+  }
+  

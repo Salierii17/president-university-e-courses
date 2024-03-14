@@ -1,0 +1,896 @@
+/* Default styles for login page */
+.login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  background-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+}
+
+.login .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; /* Set maximum width to ensure responsiveness */
+  width: 100%; /* Occupy full width */
+  align-items: center;
+  position: relative;
+}
+
+.login .div-container-fluid {
+  display: flex;
+  max-width: 100%; /* Set maximum width to ensure responsiveness */
+  width:100%; /* Occupy full width */
+  height: auto; /* Automatically adjust height */
+  align-items: flex-start;
+  position: relative;
+  background-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .login .div-wrapper,
+  .login .div-container-fluid {
+    width: 90%; 
+  }
+}
+
+
+.login .div-side-left {
+  width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+
+.login .overlap-group {
+  position: relative;
+  height: auto; /* Automatically adjust height */
+}
+
+.login .div-side-left-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Occupy full width */
+  height: auto; /* Automatically adjust height */
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.login .div-carousel-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.login .div-carousel-item {
+  height: auto; /* Automatically adjust height */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.login .div-side-left-wrapper {
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  background-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst-79
+  );
+}
+
+.login .div {
+  display: flex;
+  flex-direction: column;
+  width: 758px;
+  height: 777px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 111.7px 50px 91.7px;
+  position: relative;
+}
+
+.login .heading-margin {
+  padding: 0px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .heading {
+  padding: 0px 168px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto Slab-Medium", Helvetica;
+  font-weight: 500;
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.login .heading-wrapper {
+  padding: 0px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .where-tomorrow-s-wrapper {
+  padding: 0px 324px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .where-tomorrow-s {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-weight
+  );
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-line-height
+  );
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: vertical;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-17-16-font-style
+  );
+}
+
+.login .heading-2 {
+  padding: 0px 32px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.login .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-weight
+  );
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-line-height
+  );
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: vertical;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-10-53-font-style
+  );
+}
+
+.login .p-hd-bdad {
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .president-university-wrapper {
+  align-items: flex-start;
+  padding: 24.67px 5px 25.15px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 0.67px;
+  border-bottom-style: solid;
+  border-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultsilver-44
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.login .president-university {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.67px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-weight
+  );
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-line-height
+  );
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-14-4-font-style
+  );
+}
+
+.login .list {
+  display: flex;
+  height: 23.2px;
+  padding: 0px 574.06px 0px 0px;
+  align-self: stretch;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+
+.login .item {
+  width: 83.94px;
+  position: relative;
+  align-self: stretch;
+}
+
+.login .symbol {
+  position: absolute;
+  height: 10px;
+  top: 3px;
+  left: 0;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-weight
+  );
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-line-height
+  );
+  white-space: nowrap;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-font-awesome-5-free-solid-12-8-font-style
+  );
+}
+
+.login .link-website {
+  position: absolute;
+  height: 20px;
+  top: 0;
+  left: 16px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-weight
+  );
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-line-height
+  );
+  white-space: nowrap;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-style
+  );
+}
+
+.login .div-side-right {
+  width: 605.33px;
+  min-height: 720px;
+  background-color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  position: relative;
+  display: flex; /* Added */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.login .div-side-right-2 {
+  width: 307px;
+  height: 450px;
+
+  position: absolute;
+  background-color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  
+}
+
+.login .logo-png {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 37px;
+  left: 114px;
+  background-image: url("/assets/images/pu_logo.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.login .overlap-group-2 {
+  position: absolute;
+  width: 267px;
+  height: 366px;
+  top: 117px;
+  left: 20px;
+}
+
+.login .heading-margin-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 8px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.login .login-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19.67px 9.41px 19.53px 9.72px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper-2 {
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-weight
+  );
+  color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdove-gray
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-size
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-line-height
+  );
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-align: center;
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-letter-spacing
+  );
+  white-space: nowrap;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-medium-16-upper-font-style
+  );
+}
+
+.login .form {
+  position: absolute;
+  width: 267px;
+  height: 319px;
+  top: 47px;
+  left: 0;
+}
+
+.login .div-form-row {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+
+.login .label-margin {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .label {
+  padding: 0px 0.14px 0px 0.52px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto Slab-Regular", Helvetica;
+  font-weight: 400;
+  color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdove-gray
+  );
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.login .input-margin {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 20.67px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .input {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px;
+  flex: 0 0 auto;
+  position: relative;
+  margin-top: -0.67px;
+  margin-bottom: -0.67px;
+  margin-left: -0.67px;
+  margin-right: -0.67px;
+  background-color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultzumthor
+  );
+  border-bottom-width: 0.67px;
+  border-bottom-style: solid;
+  border-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdusty-gray
+  );
+}
+
+.login .div-hd-ceab {
+  padding: 0px 90.48px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border: none;
+  background: none;
+  margin-top: -1px;
+  font-family: "Roboto Slab-Regular", Helvetica;
+  font-weight: 400;
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultblack
+  );
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.login .div-form-row-2 {
+  flex-direction: column;
+  align-items: flex-start;
+  top: 77px;
+  display: inline-flex;
+  position: absolute;
+  left: -5px;
+}
+
+.login .label-wrapper {
+  display: flex;
+  width: 73.48px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .label-2 {
+  margin-right: -0.52px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .div-hd-abffa-wrapper {
+  width: 278.81px;
+  height: 25.34px;
+  position: relative;
+  margin-top: -0.67px;
+  margin-bottom: -0.67px;
+  margin-left: -0.67px;
+  margin-right: -0.67px;
+  background-color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultzumthor
+  );
+  border-bottom-width: 0.67px;
+  border-bottom-style: solid;
+  border-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdusty-gray
+  );
+}
+
+.login .div-hd-abffa {
+  position: relative;
+  width: 277px;
+  height: 24px;
+  top: -13px;
+}
+
+.login .div-form-row-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Add som */
+  top: 161px;
+  position: absolute;
+  left: -5px;
+}
+
+.login .div-col {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 138.74px;
+  align-items: flex-start; /* Update align-items to start */
+  padding: 0px 64.74px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .link-cant-login,
+.login .link-register {
+  position: relative;
+  width: auto; /* Allow the links to take up available width */
+  margin-top: -1px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-weight
+  );
+  color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-size
+  );
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-line-height
+  );
+  white-space: nowrap;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-style
+  );
+}
+
+.login .link-forgot-password-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 138.74px;
+  width: 138.74px;
+  height: 19px;
+  align-items: flex-end;
+  padding: 0px 4.63px 0px 27.11px;
+  position: relative;
+}
+
+.login .link-forgot-password {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-weight
+  );
+  color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-size
+  );
+  text-align: right;
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-line-height
+  );
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: vertical;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-style
+  );
+}
+
+.login .button-wrapper {
+  /* all: unset; */
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0px 0px;
+  padding: 35px 79.28px 35px 79.27px;
+  top: 182px;
+  display: inline-flex;
+  position: absolute;
+  left: -5px;
+}
+
+.login .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.67px 40.32px 5.67px 40.61px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid;
+  box-shadow: 0px 1px 5px #0000001f, 0px 2px 2px #00000024,
+    0px 3px 1px -2px #00000033;
+  border-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultcloud-burst
+  );
+}
+
+.login .text-wrapper-4 {
+  font-family: "Roboto Slab-Regular", Helvetica;
+  font-weight: 400;
+  color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.login .div-side-right-3 {
+  width: 506px;
+  height: 120px;
+  top: 559px;
+  left: 0;
+  position: absolute;
+  background-color: var(
+    --puispresidentacid-1263333374023437-5x-541333312988281-2defaultnero
+  );
+}
+
+.login .overlap {
+  position: absolute;
+  width: 506px;
+  height: 71px;
+  top: 0;
+  left: 0;
+}
+
+.login .div-social-container {
+  display: flex;
+  width: 506px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 162.66px 10px 162.67px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login .list-2 {
+  display: inline-flex;
+  gap: 10px;
+  padding: 0px 0px 0px 10px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.login .img {
+  width: 45px;
+  margin-top: -4px;
+  margin-bottom: -6px;
+  margin-left: -5px;
+  object-fit: cover;
+  position: relative;
+  align-self: stretch;
+}
+
+.login .item-2 {
+  width: 45px;
+  margin-top: -4px;
+  margin-bottom: -6px;
+  object-fit: cover;
+  position: relative;
+  align-self: stretch;
+}
+
+.login .symbol-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  align-items: center;
+  padding: 10px 11.84px 13px 12.16px;
+  background-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdeep-cerulean
+  );
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0px 1px 5px #0000001f, 0px 2px 2px #00000024,
+    0px 3px 1px -2px #00000033;
+  position: relative;
+  align-self: stretch;
+}
+
+.login .symbol-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .separator {
+  position: absolute;
+  width: 506px;
+  height: 19px;
+  top: 52px;
+  left: 0;
+  border-top-width: 0.67px;
+  border-top-style: solid;
+  border-color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultblack-10
+  );
+}
+
+.login .p-hd-cfd {
+  width: 506px;
+  align-items: center;
+  padding: 0px 165.5px 0px 165.83px;
+  position: absolute;
+  top: 92px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-family
+  );
+  font-weight: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-weight
+  );
+  color: var(
+    --puispresidentacid12633333740234375x5413333129882812defaultdove-gray
+  );
+  font-size: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-size
+  );
+  text-align: center;
+  letter-spacing: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-letter-spacing
+  );
+  line-height: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-line-height
+  );
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: vertical;
+  font-style: var(
+    --puis-president-ac-id-1263-3333740234375x541-3333129882812-default-roboto-slab-regular-12-8-font-style
+  );
+}

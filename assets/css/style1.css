@@ -1,0 +1,194 @@
+:root {
+    --color1: #f5f5f5;
+    --color2: #333;
+    --color3: #007bff;
+    --color4: #e9ecef;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+    background-color: var(--color1);
+  }
+
+  .div-wrapper,
+  .div-container-fluid {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .div-container-fluid {
+    width: 100%;
+    margin: 0 -0.34px;
+    background-color: var(--color1);
+  }
+
+  .div-side-left,
+  .div-side-right {
+    position: relative;
+  }
+
+  .overlap-group,
+  .overlap-group-2 {
+    position: absolute;
+  }
+
+  .div-side-left-bg {
+    background-image: url("/assets/images/login_left_bg.png");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .div-carousel-inner,
+  .form {
+    align-items: flex-start;
+  }
+
+  .div-carousel-item,
+  .input {
+    position: relative;
+  }
+
+  .div-side-left-wrapper,
+  .div-form-row,
+  .div-form-row-2,
+  .div-form-row-3,
+  .div-col {
+    position: relative;
+  }
+
+  .div-side-left-wrapper,
+  .div-form-row-2,
+  .div-col {
+    width: 100%;
+  }
+
+  .div-side-right-2,
+  .logo-png,
+  .overlap-group-2,
+  .heading-margin-2,
+  .login-wrapper,
+  .form,
+  .div-hd-ceab,
+  .div-form-row-3,
+  .div-col {
+    background-color: var(--color2);
+  }
+
+  .div-hd-ceab,
+  .div-hd-abffa,
+  .div-hd-abffa-wrapper {
+    border-bottom-width: 0.67px;
+    border-bottom-style: solid;
+    border-color: var(--color3);
+  }
+
+  .button {
+    background-color: var(--color1);
+    border-color: var(--color1);
+  }
+
+  .symbol,
+  .symbol-2 {
+    font-family: "FontAwesome";
+  }
+
+  .symbol-wrapper {
+    background-color: var(--color4);
+  }
+
+  .separator {
+    border-top-color: var(--color3);
+  }
+
+  .text-wrapper,
+  .text-wrapper-2,
+  .text-wrapper-3,
+  .text-wrapper-4,
+  .text-wrapper-5 {
+    font-family: "Roboto Slab";
+    text-align: center;
+  }
+
+  .text-wrapper-2 {
+    font-weight: bold;
+  }
+
+  .text-wrapper-3 {
+    font-weight: normal;
+  }
+
+  .text-wrapper-4,
+  .text-wrapper-5 {
+    font-weight: normal;
+    color: var(--color3);
+  }
+
+  .p,
+  .p-hd-bdad,
+  .p-hd-cfd {
+    font-family: "Roboto Slab";
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .p-hd-bdad,
+  .p-hd-cfd {
+    color: var(--color3);
+  }
+
+  .president-university {
+    font-weight: normal;
+  }.list,
+  .list-2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .item,
+  .item-2 {
+    width: 45px;
+    margin: 0;
+    object-fit: cover;
+  }
+
+  .link-website,
+  .link-can-t-login,.list,
+  .list-2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .item,
+  .item-2 {
+    width: 45px;
+    margin:
+  .link-forgot-password {
+    font-family: "Roboto Sl 0;
+    object-fit: cover;
+  }
+
+  .link-website,
+  .link-can-t-login,
+  .link-forgot-password {
+    font-family: "Roboto Slab";
+    font-weight: normal;
+    text-align: center;
+    color: var(--color1ab";
+    font-weight: normal;
+    text-align: center;
+    color: var(--color1);
+  }
+
+  .link-forgot-password {
+    text-align: right;
+  }
+</);
+  }
+
+  .link-forgot-password {
+    text-align: right;
+  }
