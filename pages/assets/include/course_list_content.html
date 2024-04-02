@@ -1,0 +1,65 @@
+<!-- HTML Document: Tailwind Sidebar Dropdown -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Sidebar Dropdown</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"/>
+</head>
+<body>
+  <!-- HTML Document: Reusable Content Area -->
+<div class="flex-1 bg-white p-10 ml-10 mr-7">
+  <!-- Content Area -->
+  <!-- Dropdown -->
+  <div class="p-2.5 mt-3 flex items-center px-4 duration-300 cursor-pointer border border-black hover:bg-gray-700 text-black" onclick="dropdown2()">
+    <!-- Icon and Topic 1 -->
+    <div class="flex justify-start items-start">
+      <span class="text-sm text-black mr-3" id="arrow2">
+        <i class="bi bi-chevron-right "></i>
+      </span>
+      <span class="text-sm font-bold">Topic 1</span>
+    </div>
+  </div>
+  <!-- Submenu -->
+  <div class="text-sm text-black font-bold text-start hidden" id="submenu2">
+    <!-- Item 1: Video -->
+    <h1 class="cursor-pointer p-2 hover:bg-blue-600 bg-white border border-black flex items-center justify-between relative">
+      <div>
+        <i class="bi bi-play-circle-fill text-black mr-2"></i> <!-- Icon -->
+        <span><a href="videoPlayer.html">Video</a></span> <!-- Text -->
+        <i class="bi bi-check-circle-fill text-green-500"></i> <!-- Another Icon -->
+      </div>
+      <span class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-transparent via-white to-white"></span>
+    </h1>
+    <!-- Item 2: Summary -->
+    <h1 class="cursor-pointer p-2 hover:bg-blue-600 bg-white border border-black flex items-center justify-between relative">
+      <div class="flex items-center"> <!-- Flex container for alignment -->
+        <div>
+
+          <i class="bi bi-file-earmark-text-fill text-black mr-2"></i> <!-- Icon -->
+          <span><a href="summary.html">Summary</a></span> <!-- Text -->
+        </div>
+        <i class="bi bi-x-circle-fill text-red-500 ml-auto"></i> <!-- Another Icon pushed to the end -->
+      </div>
+      <span class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-transparent via-white to-white"></span>
+    </h1>
+    <!-- Item 3: Quiz -->
+    <h1 class="cursor-pointer p-2 hover:bg-blue-600 bg-white border border-black flex items-center justify-between relative">
+      <div>
+        <i class="bi bi-question-circle-fill text-black mr-2"></i> <!-- Icon -->
+        <span>Quiz</span> <!-- Text -->
+        <i class="bi bi-check-circle-fill text-green-500 " ></i> <!-- Another Icon -->
+      </div>
+      <span class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-transparent via-white to-white"></span>
+    </h1>
+  </div>
+</div>
+    <script src="dropdown.js"></script>
+</body>
+</html>

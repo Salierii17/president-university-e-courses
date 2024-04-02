@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: none;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.page-container {
+  background-color: #293352;
+  display: absolute; /*HARTA KARUN YANG SELAMA INI DICARI TOLONG JGN DIUBAH ke relative dia harus menjadi absolute*/
+  flex-direction: column;
+  padding-bottom: 80px; /*ini juga harta karun sih*/
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #293352; /* Menetapkan warna latar belakang header */
+  transition: background-color 0.3s; /* Animasi perubahan warna */
+  position: relative; /* Menetapkan posisi relatif untuk header */
+}
+
+.header::before {
+  content: ""; /* Menambahkan konten pseudo-elemen */
+  position: absolute; /* Menetapkan posisi absolut */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(41, 51, 82, 0); /* Warna latar belakang transparan */
+  z-index: 1; /* Menetapkan z-index agar di atas header */
+  transition: background-color 0.3s; /* Animasi perubahan warna */
+}
+
+.header:hover::before {
+  background-color: rgba(
+    41,
+    51,
+    82,
+    0.5
+  ); /* Warna latar belakang transparan saat di-hover */
+}
+
+.logo {
+  width: 35px;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.site-logo {
+  width: 50px;
+}
+
+.site-name {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.search-text {
+  border: none;
+  font-family: "Merriweather", sans-serif;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.page-title {
+  margin: 50px 0 0 70px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+/* Your existing CSS */
+
+/* Updated CSS for filter */
+.course-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Sesuaikan kebutuhan */
+  padding: 0 40px; /* Sesuaikan kebutuhan */
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: #293352; /* Warna biru pada filter */
+  position: relative; /* Menetapkan posisi relatif untuk filter */
+  z-index: 2; /* Menetapkan z-index agar di atas lapisan transparan */
+  transition: background-color 0.3s; /* Animasi perubahan warna */
+}
+
+.filter-list {
+  display: none; /* Sembunyikan dropdown secara default */
+  position: absolute; /* Tetapkan posisi absolut untuk dropdown */
+  top: 100%; /* Letakkan dropdown tepat di bawah filter */
+  left: 0; /* Atur posisi kiri dropdown */
+  background-color: #293352; /* Warna biru pada dropdown */
+  z-index: 3; /* Menetapkan z-index agar di atas header */
+  padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.filter-item {
+  padding: 15px 25px;
+  background-color: #293352;
+  font-family: "Merriweather Sans", sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* Updated styling for smaller screens */
+@media (max-width: 991px) {
+  .header {
+    padding: 20px;
+  }
+  .site-title {
+    font-size: 18px;
+  }
+  .search-bar {
+    padding: 5px 10px;
+  }
+  .search-text {
+    font-size: 14px;
+  }
+  .page-title {
+    font-size: 40px;
+    margin: 40px 0 0 20px;
+  }
+  .course-filters {
+    padding: 0 20px;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  position: relative; /* Set position relative for the wrapper */
+}
+
+.wrapper ul {
+  list-style: none;
+  margin-top: 2%;
+}
+
+.wrapper ul li {
+  background: rgb(41, 51, 82);
+  width: 170px;
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  font-family: Big John;
+  transition: background-color 0.2s;
+}
+
+.wrapper ul li:hover {
+  background: crimson;
+}
+
+.wrapper ul ul {
+  display: none;
+  position: absolute; /* Position the dropdown menu absolutely */
+  top: 100%; /* Position the dropdown below the parent li */
+  left: 0; /* Align the dropdown with the left edge of the parent li */
+  z-index: 1; /* Ensure dropdowns appear below other content */
+  transition: display 0.2s ease-in-out;
+}
+
+.wrapper ul li:hover > ul {
+  display: block; /* Show the dropdown menu on hover */
+}
+
+.wrapper ul ul ul {
+  margin-left: 170px;
+  top: 0;
+  position: absolute;
+  z-index: 2; /* Ensure nested dropdowns appear above their parent dropdown */
+}
+/* Custom CSS to override default link styles for sub-items */
+.wrapper ul li ul li a {
+  color: #fff; /* Set the desired text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.wrapper ul li ul li a:hover {
+  color: #fff; /* Set the desired text color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*ini aslinya wrap aku ganti ke flex*/ /* gw salah babi*/
+  margin-top: 100px;
+  z-index: 1000; /*sebenernya ini gak*/
+}
+.card {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: #fff;
+}

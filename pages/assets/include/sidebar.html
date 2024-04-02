@@ -1,0 +1,69 @@
+<!-- Component: Sidebar -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External CSS files -->
+    <link href="/pages/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"/>
+
+  </head>
+  <body>
+    <div class="flex h-screen">
+      <div class="flex-none w-64 bg-gray-700 text-white p-4 flex flex-col">
+        <!-- Sidebar Header -->
+        <div class="text-gray-100 text-xl">
+          <div class="p-2.5 mt- flex items-center">
+            <!-- Logo -->
+            <img src="../images/logo_pu.png" class="px-2 py-1 rounded-md"></img>
+            <!-- Title -->
+            <h1 class="font-bold text-gray-200 text-[15px] ml-3">
+              Information System
+            </h1>
+          </div>
+          <!-- Introduction Section -->
+          <h1 class="text-center font-bold text-gray-200 text-[12px] ml-3">
+            Introduction Information System
+          </h1>
+          <!-- Divider -->
+          <div class="my-2 bg-gray-600 h-[1px]"></div>
+        </div>
+        <!-- Sidebar Content -->
+        <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown()">
+          <!-- Icon -->
+          <i class="bi bi-book-fill"></i>
+          <!-- Text -->
+          <div class="flex justify-between w-full items-center">
+            <span class="text-[15px] ml-4 text-gray-200 font-bold">My courses</span>
+            <!-- Arrow Icon -->
+            <span class="text-sm rotate-180" id="arrow">
+              <i class="bi bi-chevron-down"></i>
+            </span>
+          </div>
+        </div>
+        <!-- Dropdown Menu -->
+        <div class=" text-sm mt-2 text-gray-200 font-bold text-center" id="submenu">
+          <!-- Menu Items -->
+          <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Week 1</h1>
+          <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Week 2</h1>
+          <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Week 3</h1>
+          <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Week 4</h1>
+        </div>
+        <!-- Other Sidebar Items -->
+        <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+          <i class="bi bi-chat-left-text-fill"></i>
+          <span class="text-[15px] ml-4 text-gray-200 font-bold">Mentor Chat</span>
+        </div>
+        <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+          <i class="bi bi-bookmark-fill"></i>
+          <span class="text-[15px] ml-4 text-gray-200 font-bold">Certificate</span>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="dropdown.js"></script>    
+  </body>
+</html>

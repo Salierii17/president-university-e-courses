@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="/node_modules/video.js/dist/video-js.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen">
+        <div class="max-w-4xl w-full flex">
+            <div class="w-full">
+                <video id="my-video" class="video-js vjs-big-play-centered w-full" controls preload="auto" poster="../images/1.png">
+                    <source src="../video/showcase dot kafka.mp4" type="video/mp4">
+                </video>
+            </div>
+            <ul class="ml-4 bg-black w-80 rounded-md">
+                <li class="mb-2 mt-2 bg-gray-700">
+                    <div class="text-center">
+                        <h1 class="text-white hover:text-gray-200">Segment</h1>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between mb-2 mt-2">
+                    <div class="flex items-center">
+                        <img src="../images/1.png" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                        <a href="#" onclick="seekToTime(0)" class="text-white hover:text-gray-200">Introduction (0:00)</a>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between mb-2 mt-2">
+                    <div class="flex items-center">
+                        <img src="../images/2.jpg" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                        <a href="#" onclick="seekToTime(15)" class="text-white hover:text-gray-200">Topic 1 (0:15)</a>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between mb-2 mt-2">
+                    <div class="flex items-center">
+                        <img src="../images/3.jpg" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                        <a href="#" onclick="seekToTime(30)" class="text-white hover:text-gray-200">Topic 2 (0:30)</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/node_modules/video.js/dist/video.min.js"></script>
+
+    <script>
+        // Initialize Video.js
+        var player = videojs('my-video');
+
+        function seekToTime(time) {
+            player.currentTime(time);
+        }
+    </script>
+</body>
+</html>

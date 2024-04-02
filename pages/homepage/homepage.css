@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600");
+
+/* Remove Default Margin and paddings for all HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS variables to use any where in website (if you want to change theme one change here will apply to entire website) */
+:root {
+    --heading : #393A56;
+    --text : #7E7F85;
+    --theme : #FD5353;
+    --bg : #F7F8F9;
+    --footerBg : #415161;
+}
+/* ========== Global Styles ========  */
+body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5 {
+    color: var(--heading);
+}
+p {
+    color: var(--text);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* ========= Header ============= */
+header {
+    background: var(--bg);
+    width: 100vw;
+    height: 90vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+.navlinks li {
+    margin: 0 20px;
+}
+.navlinks img {
+    width: 50px;
+}
+.navlinks li a {
+    color: var(--heading);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-content img {
+    max-width: 90%;
+}
+.header-info {
+    flex: 60%;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: var(--theme);
+    border-radius: 5px;
+}
+.header-info h1 {
+    font-size: 50px;
+}
+.header-info h3 , .header-info p{
+    margin: 15px 0;
+}
+.ctn {
+    padding: 10px 16px;
+    background: var(--theme);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#categories {
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+}
+.category {
+    text-align: center;
+}
+#featured-products {
+    margin: 80px auto;
+}
+.section-info {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#offer {
+    margin: 80px auto;
+    background: var(--bg);
+}
+#offer .container {
+    display: flex;
+    align-items: center;
+}
+#offer .container img {
+    max-width: 600px;
+}
+.offer-content h1 {
+    font-size: 50px;
+}
+#featured {
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background: var(--footerBg);
+}
+footer p, footer li {
+    color: #b5b5b5;
+}
+footer h3 {
+    color: whitesmoke;
+}
+.footer-content {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.footer-content .col {
+    flex: 1;
+    margin: 0 20px;
+}
+.copyright {
+    padding: 10px 0;
+    text-align: center;
+}
+.menuBtn img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    display: none;
+}
+
+/* ==== For Mobiles Devices  ==== */
+
+@media only screen and (max-width:750px){
+    .menuBtn img {
+        display: block;
+    }
+    .container {
+        width: 90%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navlinks {
+        flex-direction: column;
+        background: var(--footerBg);
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -900px;
+        transition: all 0.5s ease-in-out;
+    }
+    .navlinks.active {
+        margin-top: 0px;
+    }
+    .navlinks li {
+        margin: 20px auto;
+    }
+    .navlinks li a{
+        color: #dddddd;
+    }
+    .brand img{
+        width: 150px;
+    }
+    header {
+        height: 100%;
+    }
+    .header-content {
+        margin: 50px auto;
+        flex-direction: column;
+    }
+    .line {
+        width: 100px;
+    }
+    .header-content h1 {
+        font-size: 40px;
+    }
+    .header-content img {
+        margin: 30px auto;
+    }
+    #categories {
+        flex-direction: column;
+    }
+    .category {
+        margin: 20px auto;
+    }
+    .category img {
+        max-width: 90%;
+    }
+    .products{
+        justify-content: center;
+    }
+    .product {
+        margin: 20px auto;
+    }
+    #offer .container {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    #offer .container img {
+        max-width: 90%;
+    }
+    #offer .container h1 {
+        font-size: 40px;
+    }
+    .offer-content {
+        margin-top: 30px;
+    }
+    #featured {
+        flex-direction: column;
+    }
+    #featured img{
+        margin: 20px auto;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        padding: 40px 0;
+    }
+    .footer-content .col {
+        margin: 10px 0;
+    }
+  
+
+}

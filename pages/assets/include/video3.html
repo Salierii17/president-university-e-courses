@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link href="/node_modules/video.js/dist/video-js.css" rel="stylesheet">
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .segment-container {
+            height: auto; /* Set initial height to auto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container flex p-10 ml-10 items-center">
+    <!-- <div class="container flex justify-center items-center p-10""> -->
+        <div class="video-container flex-1 mr-5">
+            <video id="my-video" class="video-js vjs-big-play-centered w-full" controls preload="auto" poster="../images/1.png">
+                <source src="../video/showcase dot kafka.mp4" type="video/mp4">
+            </video>
+            <div class="flex items-center justify-between mt-4">
+                <div>
+                    <h2 class="text-xl">Video Title</h2>
+                    <div class="flex items-center mt-2">
+                        <span class="text-gray-600 mr-3">1000 views</span>
+                        <span class="text-gray-600">January 1, 2023</span>
+                    </div>
+                </div>
+                <div class="flex items-end mt-5 mr-5">
+                    <i class="fa-regular fa-thumbs-up px-2 py-1 mr-2 text-2xl"></i>
+                    <i class="fa-regular fa-thumbs-down px-2 py-1 text-2xl"></i>
+                </div>
+            </div>
+            <hr class="my-4 border-gray-300"> <!-- Add a line here -->
+            <p class="text-gray-600">Video Description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sed mollitia iure earum accusamus ex odio, molestiae dolore exercitationem officiis autem ipsum fugit, nihil ad corrupti hic, totam libero delectus tempora quo minima quam eveniet? Explicabo suscipit fugiat, sequi vero quia optio consequatur aperiam delectus omnis nulla nemo voluptatibus nihil?</p>
+        </div>
+
+        <div class="segment-container bg-black w-80 rounded-md justify-center items-center pb-10" id="segmentContainer">
+            <li class="mb-2 mt-2 bg-gray-700">
+                <div class="text-center">
+                    <h1 class="text-white hover:text-gray-200">Segment</h1>
+                </div>
+            </li>
+            <li class="flex items-center justify-between mb-2 mt-2">
+                <div class="flex items-center">
+                    <img src="../images/1.png" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                    <a href="#" onclick="seekToTime(0)" class="text-white hover:text-gray-200">Introduction (0:00)</a>
+                </div>
+            </li>
+            <li class="flex items-center justify-between mb-2 mt-2">
+                <div class="flex items-center">
+                    <img src="../images/2.jpg" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                    <a href="#" onclick="seekToTime(15)" class="text-white hover:text-gray-200">Topic 1 (0:15)</a>
+                </div>
+            </li>
+            <li class="flex items-center justify-between mb-2 mt-2">
+                <div class="flex items-center">
+                    <img src="../images/3.jpg" alt="Introduction Thumbnail" class="w-24 h-12 rounded-md mr-3">
+                    <a href="#" onclick="seekToTime(30)" class="text-white hover:text-gray-200">Topic 2 (0:30)</a>
+                </div>
+            </li>
+        </div>
+    </div>
+
+    <script src="/node_modules/video.js/dist/video.min.js"></script>
+
+    <script>
+        // Initialize Video.js
+        var player = videojs('my-video');
+
+        function seekToTime(time) {
+            player.currentTime(time);
+        }
+
+        // Set segment container height dynamically
+        window.addEventListener('resize', function() {
+            var videoContainerHeight = document.querySelector('.video-container').clientHeight;
+            document.getElementById('segmentContainer').style.height = videoContainerHeight + 'px';
+        });
+
+        // Initial height setting
+        window.onload = function() {
+            var videoContainerHeight = document.querySelector('.video-container').clientHeight;
+            document.getElementById('segmentContainer').style.height = videoContainerHeight + 'px';
+        };
+    </script>
+    
+</body>
+</html>

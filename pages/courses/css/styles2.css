@@ -1,0 +1,156 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.topic-content {
+  display: none;
+}
+
+.sidebar-logo {
+  display: block;
+  margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+}
+
+.course-nav .nav-item {
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.course-nav .nav-item {
+  font-size: 1rem;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.quiz-content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.quiz-question p {
+  font-weight: bold;
+}
+
+.quiz-question ol {
+  padding-left: 20px;
+}
+
+.quiz-question ol li {
+  line-height: 1.6;
+  padding: 5px 0;
+}
+
+.breadcrumb {
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.667);
+}
+
+.breadcrumb-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+  color: #000000;
+}
+
+.breadcrumb-current {
+  font-weight: bold;
+}
+
+.navigation-container {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  flex-grow: 1;
+  text-align: center;
+  color: #333;
+}
+
+.nav-arrow {
+  margin: 0 8px;
+}
+
+.quiz-content {
+  display: flex;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  flex-direction: column; /* Stack children vertically */
+  margin-top: 20px; /* Provide some spacing from the content above */
+}
+
+.submit-quiz-btn {
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  padding: 10px 20px; /* Padding */
+  margin-top: 20px;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+  outline: none; /* Remove outline */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+}
+
+.submit-quiz-btn:hover, .submit-quiz-btn:focus {
+  background-color: #0056b3; /* Darker blue background on hover/focus */
+  outline: none; /* Ensure outline doesn't appear on focus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for depth */
+}
+
+.submit-quiz-btn:active {
+  background-color: #004085; /* Even darker blue background on active/click */
+  transform: scale(0.98); /* Slightly scale down the button when clicked */
+}
+
+@media (max-width: 768px) {
+  body {
+      flex-direction: column;
+  }
+  
+  .sidebar {
+      width: 100%;
+  }
+  
+  .content {
+      padding: 10px;
+  }
+}
