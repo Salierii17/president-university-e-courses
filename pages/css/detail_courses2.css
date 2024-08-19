@@ -1,0 +1,181 @@
+/* body{
+  background-image: url(PU.png);
+  background-size:contain;
+} */
+h1{
+    /* background-color: black; */
+    margin:0px;
+    text-align: center;
+    position: relative;
+    color: black; 
+    font-size: 50px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: 700px; 
+    line-height: 60px; 
+    display: flex;
+    justify-content: center;
+  }
+  .frame1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+  
+  }
+  .card-container {
+    width: 500px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: start;
+    background-color:#9dbeff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-shadow: 0px 8px 16px 0px rgba(10, 147, 158, 0.24);
+  }
+  
+  .card-field {
+    margin-top: 16px;
+    text-align: justify;
+  }
+  
+  .card-label {
+    display: block;
+    margin-top: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
+  .card-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .card-image{
+    margin-top: 10px;
+  }
+  
+  .card-field-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .credit-card-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  
+  .credit-card-inputs input {
+    flex-basis: calc(50% - 4px);
+    margin-right: 2px;
+  }
+  
+  .credit-card-inputs input:last-child {
+    margin-right: 0;
+  }
+  
+  .button{
+    margin-top: 10px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+   
+  }
+  .div-14 {
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(10, 147, 158, 0.24);
+    background-color:#5b93ff;
+    margin-top: 20px;
+    width: 200px;
+    color: var(--myskill_id_e-learning_1440x810_default-Nero, #fff);
+    padding: 12px 60px 13px;
+    font: 700 15px/150% Public Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      padding: 0 20px;
+      margin-top: 40px;
+    }
+  }
+  
+  .footer {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: start;
+    background-color: var(
+      --pll_harvard_edu_catalog_1440x810_default-Cod-Gray,
+      #1e1e1e
+    );
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--pll_harvard_edu_catalog_1440x810_default-Nero, #fff);
+    font-weight: 300;
+    line-height: 100%;
+    padding: 68px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 72px;
+  }
+  .div-15 {
+    color: #fff;
+    margin-top: 20px;
+    font: 600 22px/91% Rubik, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+    }
+  }
+  .div-16 {
+    color: #fff;
+    margin-top: 21px;
+    font: 600 22px/91% Rubik, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      max-width: 100%;
+    }
+  }
+  .div-17 {
+    font-family: Merriweather, sans-serif;
+    margin-top: 51px;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      margin-top: 40px;
+    }
+  }
+  .div-18 {
+    font-family: Merriweather, sans-serif;
+    margin-top: 36px;
+  }
+  .div-19 {
+    font-family: Merriweather, sans-serif;
+    margin-top: 36px;
+  }
+  .div-20 {
+    font-family: Merriweather, sans-serif;
+    margin-top: 36px;
+  }

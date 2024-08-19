@@ -1,9 +1,10 @@
 {
   "name": "webiste_2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./website/assets/css/input.css -o ./website/assets/css/style.css --watch"
+    "dev": "npx tailwindcss -i ./pages/css/input.css -o ./pages/css/style7.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -11,13 +12,13 @@
   "devDependencies": {
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.37",
-    "tailwindcss": "^3.4.3",
+    "tailwindcss": "^3.4.10",
     "video.js": "^8.10.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "bootstrap-icons": "^1.11.3",
-    "videojs-youtube": "^3.0.1"
-  },
-  "description": ""
+    "videojs-youtube": "^3.0.1",
+    "webiste_2": "file:"
+  }
 }
